@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Questions"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/idTVQnAtmptd"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvQn"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/idTVQnAtmptd"
+        android:layout_marginTop="40dp"
+        android:text="Question"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvQn"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="Option 1"
+            android:textAllCaps="false"
+            android:id="@+id/btnoption1"
+            android:backgroundTint="#17D61A"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="Option 1"
+            android:textAllCaps="false"
+            android:id="@+id/btnoption2"
+            android:backgroundTint="#17D61A"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="Option 1"
+            android:textAllCaps="false"
+            android:id="@+id/btnoption3"
+            android:backgroundTint="#17D61A"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="Option 1"
+            android:textAllCaps="false"
+            android:id="@+id/btnoption4"
+            android:backgroundTint="#17D61A"/>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
